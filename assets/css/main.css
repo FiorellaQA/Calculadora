@@ -1,8 +1,108 @@
-body {
-	background:  radial-gradient(circle, #FFF, #888);
-	padding-top: 2%;
+html,
+body
+{
 	height: 100vh;
-	font-family: 'Khula', sans-serif;
+	margin: 0;
+	padding: 0;
+	font-family: 'Khula' , sans-serif;
+	background:  radial-gradient(circle, #FFF, #888);
 }
 
+.flex
+{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+}
+
+.flex-content
+{
+	vertical-align: middle;
+	width: 280px;
+}
+
+.head
+{
+	height: 80px;
+	border-top-left-radius:44px;
+	border-top-right-radius: 44px;
+}
+
+.content
+{
+	height: 200px;
+	padding: 9% 7% 40% 7%;
+	border-bottom-left-radius: 44px;
+	border-bottom-right-radius: 44px;
+	text-align: center;
+}
+
+.screen-case
+{
+	height: 42px;
+	background-color: darkgray;
+	padding: 3%;
+	border-radius: 5px;
+	margin-bottom: 5%;
+}
+
+.screen
+{
+	border-style: none;
+	width: 100%;
+	height: 40px;
+	font-weight: 800;
+	font-size: 30px;
+	text-align: right;
+	color: white;
+}
+
+hr
+{
+	background: white;
+	height: 2px;
+	border-style:none;
+}
+
+input[type="button"],
+button
+{
+	border-radius:50%;
+	border-style: none;
+	width: 19%;
+	height: 21%;
+	margin: 2% ;
+	color: white ;
+	font-size: 15px;
+}
+
+button:focus,
+input:focus
+{
+	outline:none;
+}
+
+
+/** Utilities **/
+
+.gray-dark{
+	background-color: #3B444B;
+}
+
+.gray-medium{
+	background-color: #62676B;
+}
+
+.gray-green{
+	background-color: darkslategray;
+}
+
+.gray-soft{
+	background-color: #BAC7B6;
+}
+
+.gold{
+	background-color: #F0C50F;
+}
 
